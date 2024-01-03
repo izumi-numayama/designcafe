@@ -1,0 +1,536 @@
+@charset "utf-8";
+
+body {
+    background-color: #e8d9bf;
+}
+
+.header_container {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 7% 0 2.7%;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 226.76px;
+}
+
+.header_nav ul {
+    display: flex;
+    gap: 45px;
+}
+
+.header_nav li {
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    width: 105px;
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.sp {
+    display: none;
+}
+
+.home {
+    text-align: center;
+    margin: 80px;
+}
+
+.home_text:first-child {
+    font-size: 30px;
+}
+
+.home_text:nth-child(2) {
+    font-size: 82px;
+    padding: 50px 0 40px 0;
+}
+
+.home_text:nth-child(3) {
+    font-size: 23px;
+}
+
+.about_main_pc {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+
+    align-items: center;
+    padding-bottom: 8%;
+}
+
+.aboutmain_pc_img {
+    width: 50%;
+    border-radius: 0 0 50px 0;
+}
+
+.about_main_pc ul {
+    width: 50%;
+    padding-left: 11%;
+}
+
+.about_img {
+    width: 272.39px;
+    margin: 60px 0 60px 0;
+}
+
+.about_title {
+    font-size: 44px;
+    font-weight: 600;
+    padding: 13px;
+}
+
+.about_text {
+    max-width: 410.82px;
+    font-size: 16px;
+    margin: 35px 0 0 0;
+}
+
+.about_main_sp {
+    display: none;
+}
+
+#menu {
+    margin-bottom: 90px;
+}
+
+.menu_img {
+    max-width: 151.38px;
+    margin: 0 auto;
+}
+
+.menu_text {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu_text ul {
+    display: flex;
+}
+
+.menu_text ul li {
+    margin: 40px 20px 20px 20px;
+}
+
+.text_img img {
+    border-top-right-radius: 50px;
+}
+
+.menu_title {
+    color: #d30202;
+    font-size: 38px;
+    margin-top: -10px;
+}
+
+.menu_item {
+    font-size: 17px;
+}
+
+.gallery_img {
+    width: 245.18px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.gallery_main {
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.gallery_main img {
+    width: 20%;
+}
+
+.gallery_main picture img {
+    width: 100%;
+}
+
+.lb-data .lb-number {
+    display: none;
+}
+
+.event_img {
+    width: 173.82px;
+    margin: 0 auto;
+    padding-bottom: 38px;
+}
+
+.event_text {
+    display: flex;
+    font-size: 23px;
+}
+
+.event_container {
+    max-width: 1000px;
+    background-color: #ffffff;
+    border: 3.68px solid #4f260b;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.day {
+    margin: 10px 110px 10px 110px;
+}
+
+.title {
+    text-decoration: underline;
+    margin: 10px 0 10px 0;
+}
+
+#access {
+    margin-top: 70px;
+}
+
+.access_img {
+    width: 213.83px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+iframe {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+footer {
+    background-color: #ffffff;
+    padding-top: 80px;
+}
+
+.footer {
+    max-width: 1000px;
+    display: flex;
+
+    justify-content: left;
+    margin: 0 auto;
+}
+
+footer img {
+    width: 226.76px;
+    height: 50.28px;
+    margin: auto;
+}
+
+footer div ul {
+    margin: 10px 0 70px 65px;
+}
+
+footer div ul li {
+    font-size: 20px;
+    color: #000000;
+    line-height: 40px;
+}
+
+.footer_c {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.page_top {
+    width: 125px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+}
+
+.sp_nav,
+.humburger {
+    display: none;
+}
+
+.slick-dots {
+    bottom: 0;
+}
+
+.slick-dots li button:before {
+    font-size: 13px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+    .sp_nav {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(000, 000, 000, 0.5);
+        z-index: 3;
+    }
+    .sp_nav ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sp_nav li {
+        padding: 16px;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+    }
+    .header_nav {
+        display: none;
+    }
+    .humburger {
+        display: block;
+        cursor: pointer;
+        height: 30px;
+        width: 33px;
+        position: absolute;
+        z-index: 9999;
+        right: 0;
+    }
+    .humburger span {
+        width: 33px;
+        height: 3px;
+        background-color: #fff;
+        position: absolute;
+        content: "";
+        top: 20px;
+        right: 10px;
+        z-index: 9999;
+        transition: 0.3s;
+    }
+
+    .humburger span::before,
+    .humburger span::after {
+        position: absolute;
+        content: "";
+        width: 33px;
+        height: 3px;
+        background-color: #fff;
+        transition: 0.3s;
+    }
+    .humburger span::before {
+        top: -10px;
+    }
+    .humburger span::after {
+        top: 10px;
+    }
+
+    .open span {
+        background: transparent;
+    }
+    .open span::before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .open span::after {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    .home_text:first-child {
+        font-size: 25px;
+    }
+
+    .home_text:nth-child(2) {
+        font-size: 70px;
+    }
+
+    .about_title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo img {
+        width: 187.51px;
+    }
+
+    .slider picture {
+        width: 100%;
+    }
+
+    .home {
+        margin: 43px 0 70px 0;
+    }
+
+    .home_text:first-child {
+        font-size: 17px;
+    }
+
+    .home_text:nth-child(2) {
+        font-size: 38px;
+        padding: 35px 0 15px 0;
+    }
+
+    .home_text:nth-child(3) {
+        font-size: 16px;
+        line-height: 27.25px;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    .about_main_pc {
+        display: none;
+    }
+
+    .about_main_sp {
+        display: block;
+    }
+
+    .aboutus_sp {
+        text-align: center;
+    }
+
+    .aboutus_sp img {
+        max-width: 160.03px;
+        padding-bottom: 10px;
+    }
+
+    .about_title_sp {
+        font-size: 36px;
+        margin: 35px 0 35px 20px;
+    }
+
+    .about_text_sp {
+        font-size: 16px;
+        margin: 0 20px 50px 20px;
+    }
+
+    .menu_img {
+        max-width: 87.84px;
+        margin-bottom: 25px;
+    }
+
+    .text_img img {
+        width: 100%;
+    }
+
+    .menu_text {
+        margin: 0 auto;
+    }
+
+    .menu_text ul {
+        display: block;
+    }
+
+    .menu_text ul li {
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+
+    .menu_title {
+        font-size: 40px;
+    }
+
+    .menu_item {
+        margin: 20px 0 60px 0;
+    }
+
+    .sp_none {
+        display: none;
+    }
+
+    .gallery_img {
+        max-width: 142.26px;
+    }
+
+    .gallery_main {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .gallery_main picture {
+        width: 100%;
+    }
+
+    .gallery_main picture img {
+        width: 100%;
+    }
+
+    .gallery_main img {
+        width: 100%;
+    }
+
+    #event {
+        padding: 0 16px;
+    }
+
+    .event_img {
+        max-width: 100.86px;
+        padding-bottom: 20px;
+    }
+
+    .event_container {
+        padding: 20px 0 20px 0;
+    }
+
+    .event_text {
+        display: block;
+    }
+
+    .day {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    .title {
+        font-size: 16px;
+        margin: 10px 30px 30px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .access_img {
+        max-width: 124.07px;
+    }
+
+    iframe {
+        max-height: 191.34px;
+    }
+
+    #access {
+        margin-top: 35px;
+    }
+
+    .access_img {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        padding-top: 45px;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .footer_img {
+        padding-left: 20px;
+    }
+
+    footer div ul {
+        margin-left: 20px;
+    }
+
+    .page_top {
+        width: 80px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
+}
